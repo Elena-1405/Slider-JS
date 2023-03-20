@@ -1,0 +1,248 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Nutito Sans';
+    src: url('/Users/a1/HTML-Course/SF2022/2.Landing/fonts/Nunito,Open_Sans/Nunito-Regular.ttf');
+    src: url('/Users/a1/HTML-Course/SF2022/2.Landing/fonts/Nunito,Open_Sans/Nunito-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nutito Sans';
+    src: url('/Users/a1/HTML-Course/SF2022/2.Landing/fonts/Nunito,Open_Sans/Nunito-Italic.ttf');
+    src: url('/Users/a1/HTML-Course/SF2022/2.Landing/fonts/Nunito,Open_Sans/Nunito-Italic-VariableFont_wght.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url('/Users/a1/HTML-Course/SF2022/2.Landing/fonts/Yeseva One/YesevaOne-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    color:#363636;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+h4 {
+  font-family: 'Yeseva One';
+  font-size: 18px;
+  line-height: 25px;
+  padding-left: 23px;
+  color: #363636;
+}
+
+.yellow {
+  color: #E3B873;
+}
+
+.placeholder {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;
+}
+
+.minor{
+  font-family: 'Nunito Sans';
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5)
+}
+
+.txt {
+  color:#E3B873;
+}
+
+
+.section-2 {
+  background-color: #131313;
+  box-sizing: border-box;
+  height: 763px;
+  width: 1440px;
+  margin: 0;
+  position: relative;
+  background-size: cover;
+}
+  
+.div-2 {
+  position: relative;
+  margin-left: 595px;
+}
+  
+.div-2_list {
+  padding-top: 80px;
+  margin-left: 60px;
+  display: flex;
+  margin-top: 0;
+  font-size: 14px;
+  font-family: 'Yeseva One', sans-serif;
+  line-height: 19.4px;
+  text-transform: uppercase;
+}
+  
+.div-2_projects {
+  margin-top: 80px;
+  margin-left: 120px;
+}
+  
+.div-2_projects_info{
+  width:450px;
+  display: grid;
+  grid-template-columns: 225px 200px;
+  grid-template-rows: 110px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: 120px;
+  color:#FFFFFF; 
+}
+  
+.div-2_projects_info_item {
+  padding-bottom: 5px;
+}
+  
+
+.div-2_text {
+  color: white;
+  Size: 10px;
+  line-height: 25.73px;
+  font-family: 'Nunito Sans';
+}
+
+.slider_arrows  {
+  margin-left: 120px;
+  margin-top: 430px;
+  display: flex; 
+  position: absolute;   
+}
+
+.arrow {
+  cursor: pointer;
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.slider_dots {
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  left: 0;
+  width: 100%;
+  margin: 0 30px 0;
+  cursor: pointer;
+}
+  
+.slider_dots-item {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.3);;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  margin: 0 8px 0;
+}
+  
+.slider_dots-item:hover, .slider_dots-item.active {
+  background: #ffffff;
+}
+
+
+.slider{
+  width: 679px;
+  height: 482px;
+  border: 1px solid #131313;
+  margin: -445px 653px ;
+}
+
+.slider_image {
+  width: 679px;
+  height: 482px;
+  margin-top: 0;
+  margin-left:0;
+  position: relative;
+}
+
+.slider_image .image {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 1000ms ease;
+}
+
+.slider_image .image.active {
+  opacity: 1;
+}
+
+.slider_city{
+  width: 130px;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align:start;
+  padding: 5px 0;
+}
+  
+.city{
+  height: 90px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align:start; 
+}
+
+.slider_area{
+  width: 130px;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align:start;
+  padding: 5px 0;
+}
+
+.area {
+  height: 90px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align:start;
+}
+
+a {
+  margin-right: 65px;
+  color:rgba(255, 255, 255, 0.3);;
+}
+
+
+a:hover, a.active {
+  color:#E3B873;
+}
+
+
